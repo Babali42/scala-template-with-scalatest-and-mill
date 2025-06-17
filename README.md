@@ -16,4 +16,4 @@ With watch mode
 
 ## To run the code
 
-````./mill foo.run --text="so fast````
+````./mill foo.run --text=so fast````
