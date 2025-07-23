@@ -9,9 +9,10 @@ object kata extends ScalaModule {
     ivy"com.lihaoyi::mainargs:0.6.2"
   )
 
-  object test extends ScalaTests {
-    def ivyDeps = Agg(ivy"com.lihaoyi::utest:0.8.4")
-    def testFramework = "utest.runner.Framework"
+  object test extends ScalaTests with TestModule.ScalaTest {
+    def ivyDeps = Agg(
+      ivy"org.scalatest::scalatest:3.2.19"
+    )
   }
 }
 

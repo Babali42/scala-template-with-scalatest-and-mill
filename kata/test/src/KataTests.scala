@@ -1,12 +1,8 @@
 package kata
 
-import utest._
-
-object KataTests extends TestSuite {
-  def tests = Tests {
-    test("1 + 1 = 2") {
-      val result = Kata.addOne(1)
-      assert(result == 2)
-    }
+import org.scalatest.flatspec.AnyFlatSpec
+class KataTests extends AnyFlatSpec {
+  "Addition of 3 and 3" should "have result 6" in {
+    assert(Kata.addOne(1) == 2)
   }
 }
