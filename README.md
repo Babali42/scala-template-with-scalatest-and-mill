@@ -1,19 +1,17 @@
-# How to use mill as a build system
+# Scala template with tests
 
-## To compile the code
+## How to execute mill build
 
-````./mill foo.compile````
+- Mac & Linux : `./mill`
+- Windows : `.\mill`
 
-With watch mode
-````./mill -w foo.compile````
+## Compile
+- `./mill foo.compile`
+- With watch mode `./mill -w foo.compile`
 
-## To test the code
+## Test
+- `./mill foo.test`
+- With watch mode `./mill -w foo.test`
 
-````./mill foo.test````
-
-With watch mode
-````./mill -w foo.test````
-
-## To run the code
-
-````./mill foo.run --text=so fast````
+## Run
+- `./mill foo.run --text=so fast`
