@@ -17,3 +17,8 @@
 
 - Without arguments `./mill kata.run`
 - With arguments `./mill kata.run --text=so fast`
+
+
+## CI
+
+- A basic run and test CI exists on the template : https://github.com/Babali42/scala-template-with-scalatest-and-mill/actions
