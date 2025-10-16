@@ -6,12 +6,14 @@
 - Windows : `.\mill`
 
 ## Compile
-- `./mill foo.compile`
-- With watch mode `./mill -w foo.compile`
+- `./mill kata.compile`
+- With watch mode `./mill -w kata.compile`
 
 ## Test
-- `./mill foo.test`
-- With watch mode `./mill -w foo.test`
+- `./mill kata.test`
+- With watch mode `./mill -w kata.test`
 
 ## Run
-- `./mill foo.run --text=so fast`
+
+- Without arguments `./mill kata.run`
+- With arguments `./mill kata.run --text=so fast`
